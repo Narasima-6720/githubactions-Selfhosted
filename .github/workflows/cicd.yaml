@@ -1,0 +1,11 @@
+---
+name: This script is used for self hosted one 
+on:
+  push
+jobs:
+  app:
+    runs-on: self-hosted
+
+    steps:
+      - name: This is a self hosted
+        run: echo "Thank you"
